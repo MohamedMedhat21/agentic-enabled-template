@@ -148,7 +148,7 @@ Work through these phases in order, and do not start a phase until the previous 
 
 <!-- slot:work-items -->
 
-- If you are given an issue key (`{{ISSUE KEY FORMAT}}`), read the issue from {{TRACKER}} with the available tool; otherwise ask the user to paste the story. Use the story as pasted in chat when no key is given.
+- If you are given an issue key (`{{ISSUE KEY FORMAT}}`), read the issue from {{TRACKER}} with the available tool (for example: read the issue through the Atlassian MCP: description, linked Confluence pages, acceptance criteria, linked issues, tasks, sub-tasks and comments); otherwise ask the user to paste the story. Use the story as pasted in chat when no key is given.
 - The tracker is read-only: never comment on, transition, assign or create issues unless the user asks.
 <!-- /slot:work-items -->
 - Restate the acceptance criteria as numbered items (`AC-1`, `AC-2`, ...). If the story has no testable criteria, draft them and ask the user to confirm them.
