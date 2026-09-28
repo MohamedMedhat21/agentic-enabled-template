@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "bash .agents/hooks/guard.sh",
+        "windows": "powershell -NoProfile -ExecutionPolicy Bypass -File .agents/hooks/guard.ps1",
+        "timeout": 10
+      }
+    ]
+  }
+}
