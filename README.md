@@ -131,3 +131,7 @@ A repository is agent-ready when each item has been verified, not assumed:
 - Link to READMEs and design docs instead of copying them. Copies drift.
 - Keep always-loaded files short. Claude Code recommends under about 200 lines per instruction file; move long procedures into prompts when a file grows beyond that.
 - When an agent repeats a mistake, add one precise rule instead of a paragraph.
+
+## Contributing
+
+Contributions are welcome through a fork and pull request to `main`. See [CONTRIBUTING.md](CONTRIBUTING.md) for commit style, sync rules between `core/`, `skeletons/`, `add-ons/` and the example, and the verification checklist.
